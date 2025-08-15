@@ -7,6 +7,7 @@ import { CompleteStudySet } from "@/components/CompleteStudySet";
 import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { Mentoring } from "@/components/Mentoring";
+import { TeacherContact } from "@/components/TeacherContact";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -22,6 +23,7 @@ const Index = () => {
         <Testimonials />
         <FAQ />
         <Mentoring />
+        <TeacherContact />
       </main>
       <Footer />
     </div>
