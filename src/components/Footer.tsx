@@ -28,20 +28,21 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-primary-foreground">Free Revision Sheet</a></li>
-              <li><a href="#" className="hover:text-primary-foreground">Video Courses</a></li>
-              <li><a href="#" className="hover:text-primary-foreground">Exam Questions</a></li>
-              <li><a href="#" className="hover:text-primary-foreground">Mock Exams</a></li>
+              <li><a href="https://docs.google.com/spreadsheets/d/1C2nGNYV4nyfJ1TysAODarNmNPZMzKMMNj6lwM7VFJ4Q/template/preview" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground">Free Revision Sheet</a></li>
+              <li><a href="https://buy.stripe.com/14keY4aNMcmq8zmaES" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground">Video Courses</a></li>
+              <li><a href="https://buy.stripe.com/00gbLS7BAcmqeXK3cs" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground">Exam Questions</a></li>
+              <li><a href="https://forms.gle/AFtZh2kuE52CwUdSA" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground">Free Demo</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Support</h4>
+            <h4 className="text-lg font-semibold mb-4">Contact & Legal</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-primary-foreground">Contact Us</a></li>
-              <li><a href="#" className="hover:text-primary-foreground">Mentoring</a></li>
-              <li><a href="#" className="hover:text-primary-foreground">Free Demo</a></li>
-              <li><a href="#" className="hover:text-primary-foreground">FAQ</a></li>
+              <li><a href="mailto:info@mentoringcph.com" className="hover:text-primary-foreground">info@mentoringcph.com</a></li>
+              <li><a href="tel:+4522228314" className="hover:text-primary-foreground">+45 22 22 83 14</a></li>
+              <li><a href="tel:+4552119692" className="hover:text-primary-foreground">+45 52 11 96 92</a></li>
+              <li><a href="https://drive.google.com/file/d/11sNyNx4URC0iaPCP2-7LAnogyVaqr7v5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground">Terms & Conditions</a></li>
+              <li><a href="https://drive.google.com/file/d/1UXKHCBEadbgW2dtMV30e3PJQk445nFuQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground">Passing Guarantee</a></li>
             </ul>
           </div>
         </div>

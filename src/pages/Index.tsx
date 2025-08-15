@@ -3,6 +3,10 @@ import { Hero } from "@/components/Hero";
 import { RevisionSheet } from "@/components/RevisionSheet";
 import { VideoSection } from "@/components/VideoSection";
 import { ExamQuestions } from "@/components/ExamQuestions";
+import { CompleteStudySet } from "@/components/CompleteStudySet";
+import { Testimonials } from "@/components/Testimonials";
+import { FAQ } from "@/components/FAQ";
+import { Mentoring } from "@/components/Mentoring";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -14,6 +18,10 @@ const Index = () => {
         <RevisionSheet />
         <VideoSection />
         <ExamQuestions />
+        <CompleteStudySet />
+        <Testimonials />
+        <FAQ />
+        <Mentoring />
       </main>
       <Footer />
     </div>

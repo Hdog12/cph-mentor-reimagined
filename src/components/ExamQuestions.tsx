@@ -22,7 +22,7 @@ export const ExamQuestions = () => {
             <div className="flex items-center space-x-3">
               <Rocket className="h-6 w-6 text-accent" />
               <span className="text-lg">
-                <strong>125 Questions + 2 Full Mock Exam Sets</strong>
+                <strong>125 Exam-style Questions + 2 Mock Exam Sets</strong>
               </span>
             </div>
             
@@ -52,17 +52,21 @@ export const ExamQuestions = () => {
               <div>
                 <Badge className="mb-2">FREE DEMO</Badge>
                 <p className="text-lg">
-                  Try Demo for FREE: 2 Videos + 5 exam-style questions
+                  Try Demo for FREE: 2 Videos + 5 exam-style questions at no cost!
                 </p>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="flex-1">
-                Get Access to Exam Style Questions
+              <Button size="lg" className="flex-1" asChild>
+                <a href="https://buy.stripe.com/00gbLS7BAcmqeXK3cs" target="_blank" rel="noopener noreferrer">
+                  Get Exam Style Questions
+                </a>
               </Button>
-              <Button variant="secondary" size="lg" className="flex-1">
-                Get FREE Demo!
+              <Button variant="secondary" size="lg" className="flex-1" asChild>
+                <a href="https://forms.gle/AFtZh2kuE52CwUdSA" target="_blank" rel="noopener noreferrer">
+                  Get FREE Demo!
+                </a>
               </Button>
             </div>
           </div>

@@ -60,7 +60,7 @@ export const VideoSection = () => {
             <div className="flex items-center space-x-3">
               <Euro className="h-6 w-6 text-accent" />
               <span className="text-lg">
-                €69 for all videos; €3 for a singular video of your choice
+                <strong>€69 for all videos; €3 for a singular video of your choice</strong>
               </span>
             </div>
             
@@ -69,22 +69,28 @@ export const VideoSection = () => {
               <div>
                 <Badge className="mb-2">FREE DEMO</Badge>
                 <p className="text-lg">
-                  Try Demo for FREE: 2 Videos + 5 exam-style questions
+                  Try Demo for FREE: 2 Videos + 5 exam-style questions at no cost!
                 </p>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="flex-1">
-                Get Access to All Videos (€69)
+              <Button size="lg" className="flex-1" asChild>
+                <a href="https://buy.stripe.com/14keY4aNMcmq8zmaES" target="_blank" rel="noopener noreferrer">
+                  Get Access to All Videos (€69)
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="flex-1">
-                Get One Video (€3)
+              <Button variant="outline" size="lg" className="flex-1" asChild>
+                <a href="https://buy.stripe.com/fZe7vCdZY726cPC7sH" target="_blank" rel="noopener noreferrer">
+                  Get One Video (€3)
+                </a>
               </Button>
             </div>
             
-            <Button variant="secondary" size="lg" className="w-full">
-              Get FREE Demo!
+            <Button variant="secondary" size="lg" className="w-full" asChild>
+              <a href="https://forms.gle/AFtZh2kuE52CwUdSA" target="_blank" rel="noopener noreferrer">
+                Get FREE Demo!
+              </a>
             </Button>
           </div>
         </div>

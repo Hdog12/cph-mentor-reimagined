@@ -11,9 +11,6 @@ export const Header = () => {
         </div>
         
         <nav className="hidden md:flex space-x-8">
-          <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">
-            Home
-          </a>
           <a href="#resources" className="text-foreground hover:text-primary transition-colors font-medium">
             Resources
           </a>
@@ -23,14 +20,21 @@ export const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
             Contact
           </a>
+          <a href="#faq" className="text-foreground hover:text-primary transition-colors font-medium">
+            FAQ
+          </a>
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Button variant="outline" size="sm">
-            Demo
+          <Button variant="outline" size="sm" asChild>
+            <a href="https://forms.gle/AFtZh2kuE52CwUdSA" target="_blank" rel="noopener noreferrer">
+              Free Demo
+            </a>
           </Button>
-          <Button size="sm">
-            Get Started
+          <Button size="sm" asChild>
+            <a href="https://docs.google.com/spreadsheets/d/1C2nGNYV4nyfJ1TysAODarNmNPZMzKMMNj6lwM7VFJ4Q/template/preview" target="_blank" rel="noopener noreferrer">
+              Get Revision Sheet
+            </a>
           </Button>
         </div>
       </div>

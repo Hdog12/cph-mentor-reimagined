@@ -16,7 +16,7 @@ export const RevisionSheet = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-3">
                 <Target className="h-6 w-6 text-accent" />
-                <span className="text-lg">Outlines every concept you need to know for the exams</span>
+                <span className="text-lg">Outlines every single concept you need to know for the Math AI SL exams</span>
               </div>
               
               <div className="flex items-center space-x-3">
@@ -30,8 +30,10 @@ export const RevisionSheet = () => {
               </div>
             </div>
             
-            <Button size="lg" className="text-lg px-8">
-              Get Revision Sheet
+            <Button size="lg" className="text-lg px-8" asChild>
+              <a href="https://docs.google.com/spreadsheets/d/1C2nGNYV4nyfJ1TysAODarNmNPZMzKMMNj6lwM7VFJ4Q/template/preview" target="_blank" rel="noopener noreferrer">
+                Get Revision Sheet
+              </a>
             </Button>
           </div>
           
